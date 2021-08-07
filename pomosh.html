@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+          body{
+    overflow-x: hidden;
+    transition: 5s;
+}
+
+
+.section1{
+    width: 100%;
+    background-image: linear-gradient(to right bottom, rgba(148, 110, 110, 0.925), rgba(0, 0, 0, 0.788)), url('/img/markrting_jamoa.jpg');
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    position: relative;
+    margin: 0px;
+    color: #fff;
+}
+
+
+.logo_komp{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    animation:1s boshi linear;
+}
+
+
+.komp_nomi{
+    position: absolute;
+    color: #fff;
+    font-family: sans-serif;
+    top: 10px;
+    left: 125px;
+    animation:1s boshi linear;
+}
+
+
+.navbar>:nth-child(3){
+    position:absolute;
+    color: #fff;
+    top: 60px;
+    left: 125px;
+    font-size: 15px;
+    font-family: sans-serif;
+    animation:1s boshi linear;
+}
+
+
+.telefon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 650px;
+    background-color: rgb(0, 183, 255);
+    padding: 4px;
+    border-radius:50%;
+    animation:1s boshi linear;
+}
+
+
+.nomer{
+    position: relative;
+    color: #fff;
+    font-size: 22px;
+    top: 50px;
+    left: 730px;
+    animation:1s boshi linear;
+}
+
+
+.knopka1{
+    background-color: rgb(0, 183, 255);
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    left: 1010px;
+    border-radius:20px;
+    font-size: 17px;
+    font-family: sans-serif;
+    top: 30px;
+    box-shadow: 1px 5px 10px rgb(0, 183, 255);
+    transition: .5s;
+    animation:1s boshi linear;
+}
+
+
+.knopka1:hover{
+    box-shadow: 0px 0px 0px transparent;
+}
+
+
+.liniya{
+    background-color: #fff;
+    opacity: 0.2;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 145px;
+    animation:1s boshi linear ;
+}
+
+.ul{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    animation:1s boshi linear ;
+}
+
+
+@keyframes boshi {
+    0%{
+        opacity: 0;
+        top: -50px;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+.ul>li{
+    padding: 10px 3px;
+    display: inline-block;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 180; 
+    font-size: 15px;
+    margin-left: 35px;
+    transition: .5s;
+}
+
+
+.ul>li>a{
+    color: white;
+    opacity: 0.7;
+    transition: .5s;
+}
+
+
+.ul>li:hover a{
+   opacity: 1;
+   text-decoration: none;
+   color: white;
+}
+
+
+.ul2{
+    position: relative;
+    display: inline-flex;
+    top: 40px;
+}
+
+
+.ul2>li{
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+
+.ul2>li>a{
+    color: crimson;
+}
+
+
+.ul2>li:hover a{
+   text-decoration: none;
+}
+
+.section2_big_text{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    top: 25px;
+    left: 40px;
+}
+
+
+.data{
+    font-family:  sans-serif;
+    font-size: 15px;
+    color: gray;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.section2>p{
+    position: relative;
+    top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    left: 40px;
+}
+
+.exp_news{
+    color: black;
+    font-family: sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="section1">
+        <div class="navbar">
+            <div><img class="logo_komp" src="/img/logo_marketing.png" alt=""></div>
+            <h1 class="komp_nomi">Future Group</h1>
+            <p>Рекламное агентство</p>
+    
+            <div class="nav2">
+                <div><img class="telefon" src="/img/telefon.png" alt=""></div>
+                <p class="nomer">8 (123) 255-89-55</p>
+                <a class="knopka1" href="#">Заказать обратный звонок</a>
+                <div class="liniya"></div>
+            </div>
+        </div>
+    
+          <ul class="ul">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">О кампании</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Отзывы о нас</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Доставка</a></li>
+          </ul>
+    </div>
+
+    <div class="section2">
+        <ul class="ul2">
+            <li><a href="#">Главная /</a></li>
+            <li><a href="#">О компании /</a></li>
+            <li><a href="#">Статьи и советы /</a></li>
+            <li><a href="#">Новости компании /</a></li>
+            <li>Помощь в заключении договоров</li>
+        </ul>
+        <h1 class="section2_big_text">Помощь в заключении договоров</h1>
+        <h1 class="data">Дата публикации: 30.07.2021</h1>
+        <p>В данном разделе мы рекомендуем Вам размещать новостные, информационные, справочные и иные статьи, так или иначе связанные с работой Вашей компании.</p>
+        <p>Вы можете задать способ отображения новостей в ленте: анонс (со ссылкой на полный текст) или новости целиком. Помимо этого, доступны настройки сортировки, количества новостей на странице и формата изображений, прикрепленных к новостям.</p>
+        <p class="exp_news">Пример новости:</p>
+        <p>Приветствуем Вас на сайте нашей компании. Теперь, помимо сети филиалов по всему городу, у нас есть и небольшое Интернет-представительство, где Вы всегда можете ознакомиться с перечнем предоставляемой продукции, а также действующих акций и скидок, подобрать и оформить заказ, получить любую справочную и контактную информацию и просто всегда быть в курсе последних новостей нашей фирмы.</p>
+        <p>В данном разделе Вы всегда сможете найти актуальную и полезную информацию о предоставляемой продукции, последних поступлениях, обновлении товаров и многом другом.</p>
+    </div>
+
+
+
+</body>
+</html>
